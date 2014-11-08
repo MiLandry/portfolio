@@ -11,6 +11,9 @@
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:300,600' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+<!--    <script src=“jquery-1.11.1.min.js”></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+
 </head>
 <body>
     <div class="container">
@@ -53,7 +56,7 @@
             <!-- p3 project -->
             <div class="col-md-6">
                 <div class="row">
-                    <img class="img-responsive center-block img-project" src="img/p3picture.PNG"/>
+                    <img class="img-responsive center-block img-project" src="img/p3picture.PNG" data-toggle="modal" data-target="#project1"/>
                 </div>
                 <div class="row">
                     <h2>P-3</h2>
@@ -63,7 +66,7 @@
             <!-- ANR Arena -->
             <div class="col-md-6">
                 <div class="row">
-                    <img class="img-responsive center-block img-project" src="img/anr.jpg"/>
+                    <img class="img-responsive center-block img-project" src="img/anr.jpg" data-toggle="modal" data-target="#project2"/>
                 </div>
                 <div class="row">
                     <h2>ANR</h2>
@@ -88,7 +91,49 @@
 
         </div>-->
 
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">P-4 Source Point Website</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="img/p3picture.PNG">
+        <p>The Lockheed Martin P-3 Source Point website was commisioned by the defense contractor to facilitate owners and operators of the P-3 reconnissance aircraft in requisitioning parts for their planes.  The website was created by my company, Organizational Strategies Inc, and put into production in October of 2014.  The website allows users to request orders for parts from Lockheed Martin's licensed distributors and manufacturers.  It also provides allows users to open up issues regarding part numbers that are not documents or out of production.  There is also a discussion area for the site where users can discuss alternative strategies for securing parts, trading parts, coordinating joint purchases to leverage economies of scale, and knowledge sharing on P-3 operation and maintenance.
+    The website project begane in July of 2014 and was completed three months later with a team of three developers utilizing a Scrum methodology.  The website runs on JBoss powered by Java, Mysql, and HTML.  Other technologies used in the website include the Activiti Workflow Engine, Spring, CVS, Apache Ant, and OSI's proprietary Inter Domain Service Manager, which provides database connectivity, user validation, session handling, and a GUI framework.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!-- end modal -->
+
+<!-- Modal ANR -->
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Android Netrunner</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="img/anr.jpg">
+        <p>The Android: Netrunner Arena Limited website is a personal project I created to facilitate Limited play for Fantasy Flight Games' <i>Android: Netrunner</i> Card Game.  A user is able to construct a deck list consisting of one of 3 randomly chosen idendities and 30 cards chosen one at a time from a pool of three cards created according to a specified configuration.
+This project was created in my spare time for personal use.  It uses HTML, Google App Engine, and Mysql.  Other technologies involved include Bootstrap Front End Framework, Javascript, Jquery, Ajax, Hibernate, and github.
+
+</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end modal ANR -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

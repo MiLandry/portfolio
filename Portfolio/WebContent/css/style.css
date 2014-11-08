@@ -20,6 +20,7 @@ body{
 hr{
     min-height: 1px;
     color: black;
+    background-color: black;
 }
 .img-logo{
     padding-top: 20px;
@@ -28,4 +29,7 @@ hr{
 .img-project{
     max-height: 190px;
 
+}
+p{
+    font-weight: 900;
 }
